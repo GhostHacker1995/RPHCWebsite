@@ -451,8 +451,9 @@ h6,
 
 /*** Footer ***/
 .footer {
-  background: url(../img/footer.png) center center no-repeat;
+  background: url(../img/footer.jpg);
   background-size: contain;
+  background-attachment: fixed;
 }
 
 .footer .btn.btn-social {
@@ -462,8 +463,8 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(256, 256, 256, 0.1);
+  color: #fff;
+  border: 1px solid #ffffff;
   border-radius: 40px;
   transition: 0.3s;
 }
@@ -477,13 +478,13 @@ h6,
   margin-bottom: 10px;
   padding: 0;
   text-align: left;
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
   font-weight: normal;
   transition: 0.3s;
 }
 
 .footer .btn.btn-link:hover {
-  color: #ffffff;
+  color: #15ace1;
 }
 
 .footer .btn.btn-link::before {
@@ -502,21 +503,21 @@ h6,
 .footer .copyright {
   padding: 25px 0;
   font-size: 14px;
-  border-top: 1px solid rgba(256, 256, 256, 0.1);
+  border-top: 1px solid #ffffff;
 }
 
 .footer .copyright a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #f7e70d;
 }
 
 .footer .copyright a:hover {
-  color: #ffffff;
+  color: #0565aa;
 }
 
 .footer .footer-menu a {
   margin-right: 15px;
   padding-right: 15px;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid #ffffff;
 }
 
 .footer .footer-menu a:last-child {
